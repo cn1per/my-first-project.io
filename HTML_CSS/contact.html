@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<absolute path="cennik.html" />
+<absolute path="index.html" />
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="dzawa.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header class="header">
+
+    <div class="header-left">
+        <a href="index.html" class="logo-link">
+            <img src="IR.png" class="logo" alt="IvaRos Studio Logo">
+            <h1>IvaRos Studio</h1>
+        </a>
+    </div>
+
+    <nav>
+        <a href="about.html">O nas</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="portfolio.html">Portfolio</a>
+    </nav>
+
+</header>
+    <section class="contact">
+        <h1>Kontakt:</h1>
+        <p>Jeśli masz pytania, chcesz umówić się na wizytę lub potrzebujesz dodatkowych informacji, skontaktuj się z nami. Jesteśmy do Twojej dyspozycji i chętnie odpowiemy na wszystkie Twoje pytania.</p>
+        <ul>
+            <li><strong>Adres:</strong> ul. Pocztowa, 8 U / 1, 70-360, Szczecin</li>
+            <li><strong>Telefon:</strong> +48 123 456 789</li>
+            <li><strong>Email:</strong> ivarosstudio@gmail.com</li>
+        </ul>
+        <p>Możesz również skorzystać z naszego formularza kontaktowego lub odwiedzić nas osobiście w naszym studio. Czekamy na Ciebie!</p>
+    </section>
+
+    <button class="open-btn" onclick="openWindow()">
+    Kontakt
+</button>
+
+
+<div class="app-window" id="appWindow">
+
+    <div class="app-bar">
+        <span>Kontakt.exe</span>
+
+        <div class="controls">
+            <div class="btn red" onclick="closeWindow()"></div>
+            <div class="btn yellow"></div>
+            <div class="btn green"></div>
+        </div>
+    </div>
+
+    <div class="app-body">
+        <h2>Formularz kontaktowy</h2>
+
+        <form>
+            <input type="text" placeholder="Imię">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Twoja wiadomość"></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+    
+    </body>
+    <footer>
+    <p>© 2026 All rights reserved.</p>
+</footer>
+
+    
+              
+
